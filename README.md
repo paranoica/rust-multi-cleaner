@@ -3,6 +3,7 @@
 
 ### A powerful system cleanup tool written in Rust
 
+
 </div>
 
 ## 📌 About the Project
@@ -19,7 +20,7 @@
 
 ### Demo
 <img width="430" height="168" alt="multi-cleaner-preview" src="attachments/preview.png" />
-![CLI](attachments/preview.gif)
+![CLI](./attachments/preview.gif)
 
 ## 📥 Installation
 
