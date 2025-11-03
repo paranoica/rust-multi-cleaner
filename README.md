@@ -11,11 +11,11 @@
 
 ### Key Features
 
-- 🚀 **Fast Cleanup**: Leverages multi-threading for maximum performance
-- 🔒 **Secure**: Carefully preserves critical system files
-- 💻 **Cross-Platform**: Full support for [Windows](https://github.com/paranoica/rust-multi-cleaner/blob/main/win.md) and [Linux](https://github.com/paranoica/rust-multi-cleaner/blob/main/lin.md)
-- 🎯 **User-Friendly**: Clean, minimalist interface for easy operation
-- 📄 **Custom-DataBase**: Ability to use custom cleanup database
+- 🚀 **Fast cleanup**: Leverages multi-threading for maximum performance
+- 🔒 **Security system**: Carefully preserves critical system files
+- 💻 **Cross-platform**: Full support for [Windows](https://github.com/paranoica/rust-multi-cleaner/blob/main/win.md) and [Linux](https://github.com/paranoica/rust-multi-cleaner/blob/main/lin.md)
+- 🎯 **User-friendly**: Clean, minimalist interface for easy operation
+- 📄 **Custom database**: Ability to use custom cleanup database
 
 ### Demo
 <img width="430" height="168" alt="multi-cleaner-preview" src="attachments/preview.png" />
@@ -46,3 +46,8 @@ cargo build --release
 ```
 
 4. The compiled binary will be located in `./target/release`
+
+## 📖 Additional files
+
+- **Deep integration tests**: [Click here!](https://github.com/paranoica/rust-multi-cleaner/blob/main/tests.md)
+- **Deep build parameters & etc.**: [Click here!](https://github.com/paranoica/rust-multi-cleaner/blob/main/build.md)
