@@ -1,8 +1,6 @@
 <div align="center">
 <h1>🌟 Multi-cleaner GUI/CLI 🌟</h1>
 
-<img src="assets/icon.png" alt="multi-cleaner-logo" width="64"/>
-
 ### A powerful system cleanup tool written in Rust
 
 </div>
