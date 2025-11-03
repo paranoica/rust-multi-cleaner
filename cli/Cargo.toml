@@ -1,0 +1,45 @@
+[package]
+name = "multi-cleaner-cli"
+version = "1.0.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+inquire = "0.7.5"
+crossterm = "0.29.0"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+indicatif = "0.17.11"
+notify-rust = "4"
+tabled = "0.20.0"
+clap = { version = "4.0", features = ["derive"] }
+tempfile = "3.20.0"
+
+database = { path = "../database" }
+cleaner = { path = "../cleaner" }
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.55.0"
+winapi = { version = "0.3", features = [
+  "winnt",
+  "securitybaseapi",
+  "processthreadsapi",
+  "handleapi",
+] }
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1.12"
+
+[package.metadata.winres]
+FileDescription = "Garbage remover"
+OriginalFilename = "multi-cleaner.exe"
+LegalCopyright = "CORP INC © 2025"
+ProductName = "Multi-cleaner"
+
+[profile.release] # optimize file size
+lto = true
+codegen-units = 1
+opt-level = "z"
+strip = true
+panic = "abort"
+debug = false
