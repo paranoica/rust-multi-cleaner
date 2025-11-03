@@ -13,7 +13,7 @@
 
 - 🚀 **Fast Cleanup**: Leverages multi-threading for maximum performance
 - 🔒 **Secure**: Carefully preserves critical system files
-- 💻 **Cross-Platform**: Full support for [Windows](https://github.com/paranoica/rust-multi-cleaner/win.md) and [Linux](https://github.com/paranoica/rust-multi-cleaner/lin.md)
+- 💻 **Cross-Platform**: Full support for [Windows](https://github.com/paranoica/rust-multi-cleaner/blob/main/win.md) and [Linux](https://github.com/paranoica/rust-multi-cleaner/blob/main/lin.md)
 - 🎯 **User-Friendly**: Clean, minimalist interface for easy operation
 - 📄 **Custom-DataBase**: Ability to use custom cleanup database
 
