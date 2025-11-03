@@ -3,7 +3,6 @@
 
 ### A powerful system cleanup tool written in Rust
 
-
 </div>
 
 ## 📌 About the Project
